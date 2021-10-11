@@ -1,0 +1,51 @@
+.tarefas {
+  margin-top: 30px;
+}
+
+.tarefas li {
+  background-color: rgba(255, 255, 255, 0.363);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  transition: all 600ms;
+  font-weight: bolder;
+}
+
+.tarefas li:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.tarefas li .delete {
+  color: red;
+  cursor: pointer;
+}
+
+.tarefas input {
+  margin: 0;
+  width: 350px;
+  border: none;
+  background-color: inherit;
+  font-size: inherit;
+}
+
+.tarefas input:focus {
+  border: none;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: red;
+}
+
+.check {
+  margin-right: 5px;
+  color: green;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
